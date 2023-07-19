@@ -30,6 +30,9 @@
     "hf_hub_url": "BelleGroup/school_math_0.25M"
   },
   "belle_multiturn": {
+    "hf_hub_url": "BelleGroup/multiturn_chat_0.8M"
+  },
+  "belle_multiturn_chatglm": {
     "script_url": "belle_multiturn",
     "columns": {
       "prompt": "instruction",
@@ -94,9 +97,6 @@
       "history": "history"
     }
   },
-  "novel_tokens512_50k": {
-    "hf_hub_url": "zxbsmk/webnovel_cn"
-  },
   "example": {
     "script_url": "example_dataset",
     "columns": {
@@ -105,6 +105,10 @@
       "response": "output",
       "history": "history"
     }
+  },
+  "self_cognition": {
+    "file_name": "self_cognition.json",
+    "file_sha1": "81312c57726853ae7d3489bd7d1263f3260acbad"
   },
   "comparison_gpt4_en": {
     "file_name": "comparison_gpt4_data_en.json",
@@ -143,14 +147,10 @@
       "history": "history"
     }
   },
-  "wiki_demo": {
-    "file_name": "wiki_demo.txt",
-    "file_sha1": "b2288edb05b233e5b35250fd4b308a5fa21fa66d",
-    "columns": {
-      "prompt": "text",
-      "query": "",
-      "response": "",
-      "history": ""
-    }
+  "zhenhuan": {
+    "file_name": "zhenhuan.json"
+  },
+  "paper_label": {
+    "file_name": "paper_label.json"
   }
 }
